@@ -1,0 +1,15 @@
+from datetime import datetime
+
+print ('Enter student ID:')
+student_id = input()
+
+print ('Enter student age:')
+student_age = input()  
+
+age_in_5_years = int(student_age) + 5
+age_doubled = int(student_age) * 2
+
+print ('Student ID:', student_id)
+print ('Your Age in 5 Years:', age_in_5_years)
+print ('Your Age Doubled:', age_doubled)
+print ('Current Date and Time:', datetime.now())
