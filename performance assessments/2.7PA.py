@@ -34,5 +34,5 @@ guess = 7
 increment = 1
 for counter in range(5):
     guess = guess + 1
-    print(f" 7 incremented by {increment} is {guess}")
     increment +=1
+    print(f" 7 incremented by {increment} is {guess}")
